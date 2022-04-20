@@ -12,9 +12,8 @@ search ASX/ST motifs
 4) download corresponding PDB files from PDB databank.
    details can be checked in https://www.rcsb.org/downloads
 scripts are ready to run after these steps.
-```
+
 database
-```bash
 generated database of unqiue ASX/ST motifs are provided in zip format.
 filters can be implemented on the family database to generate children database.
 a children database of alpha-helical ASX/ST motifs are provided in zip format.
