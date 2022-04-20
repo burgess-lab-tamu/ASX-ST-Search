@@ -16,5 +16,5 @@ scripts are ready to run after these steps.
 database
 generated database of unqiue ASX/ST motifs are provided in zip format.
 filters can be implemented on the family database to generate children database.
-a children database of alpha-helical ASX/ST motifs are provided in zip format.
+a children database of alpha-helical ASX/ST motifs is also provided.
 ```
