@@ -14,7 +14,7 @@ search ASX/ST motifs
 scripts are ready to run after these steps.
 
 database
-generated database of unqiue ASX/ST motifs are provided in zip format.
+generated databases of unqiue ASX/ST motifs are provided in zip format.
 filters can be implemented on the family database to generate children database.
 a children database of alpha-helical ASX/ST motifs is also provided.
 ```
@@ -28,4 +28,10 @@ general information
    statistical information such as number of different types of motifs, avearge/standard deviation of dihedral angles and residue abundance can be obtained.
 
 hydrophobic interactions
-1) open '
+1) open 'count_hydrophobic_interaction' folder
+2) run python files inside using generated databases from 'motif search' folder.
+
+database
+generated databases including hydrophobic patterns of ASX/ST motifs (with hydrophobic _N'_ and _N4_) are provided in zip format.
+```
+
