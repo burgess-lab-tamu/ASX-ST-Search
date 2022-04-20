@@ -18,3 +18,7 @@ generated database of unqiue ASX/ST motifs are provided in zip format.
 filters can be implemented on the family database to generate children database.
 a children database of alpha-helical ASX/ST motifs is also provided.
 ```
+
+bioinformatics
+```bash
+1) open 'bioinformaics' folder
