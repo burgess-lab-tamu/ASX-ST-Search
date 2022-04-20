@@ -19,6 +19,13 @@ filters can be implemented on the family database to generate children database.
 a children database of alpha-helical ASX/ST motifs is also provided.
 ```
 
+
 bioinformatics
 ```bash
+general information
 1) open 'bioinformaics' folder
+2) in jupyter notebook, run ASX or ST_informatics using generated databases from 'motif search' folder. 
+   statistical information such as number of different types of motifs, avearge/standard deviation of dihedral angles and residue abundance can be obtained.
+
+hydrophobic interactions
+1) open '
