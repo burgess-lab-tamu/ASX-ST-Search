@@ -32,6 +32,6 @@ hydrophobic interactions
 2) run python files inside using generated databases from 'motif search' folder.
 
 database
-generated databases including hydrophobic patterns of ASX/ST motifs (with hydrophobic *N'* and *N4*) are provided in zip format.
+generated databases including hydrophobic patterns of ASX/ST motifs (with hydrophobic N' and N4) are provided in zip format.
 ```
 
