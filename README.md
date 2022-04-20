@@ -35,3 +35,6 @@ database
 generated databases including hydrophobic patterns of ASX/ST motifs (with hydrophobic N' and N4) are provided in zip format.
 ```
 
+## Usage
+
+to be published
