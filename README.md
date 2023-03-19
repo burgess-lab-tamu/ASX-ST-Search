@@ -7,11 +7,12 @@ search ASX/ST motifs
 ```bash
 1) open 'motif search' folder
 2) download either serach_ASX or search_ST.py
-3) scripts will need pdb_id and chain_id, and both csv files can be obtained in the same page.
+3) scripts will need pdb_id and chain_id as inputs.  
+   two csv files of unique chains and their corresponding PDB ID can be obtained in the same page.
    chains included here are non-redundant chains filtered from all entries in PDB till 2020 Nov.
-4) download corresponding PDB files from PDB databank.
-   details can be checked in https://www.rcsb.org/downloads
-scripts are ready to run after these steps.
+   PDB files corresponding to PDB IDs in the csv file must be downloaded to local disk: details of downloading PDB files can be checked in https://www.rcsb.org/downloads
+4) scripts are ready to run with two csv files and local PDB files. 
+5) output is a csv file including the location of ASX/ST motifs (by PDB ID, chain ID and starting residue ID (Asp/Asn/Ser/Thr)) 
 
 database
 generated databases of unqiue ASX/ST motifs are provided in zip format.
