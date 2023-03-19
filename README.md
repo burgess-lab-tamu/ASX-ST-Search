@@ -13,8 +13,8 @@ search ASX/ST motifs
    PDB files corresponding to PDB IDs in the csv file must be downloaded to local disk: details of downloading PDB files can be checked in https://www.rcsb.org/downloads
 4) scripts are ready to run with two csv files and local PDB files. 
 5) output of search_ASX and search_ST gives csv files which include locations of ASX/ST motifs (by PDB ID, chain ID and starting residue ID (Asp/Asn/Ser/Thr)), classfications and at interfaces or not.
-6) The output csv files from search_ASX.py or search_ST.py can be used as inputs in sequence_secondary_dihedral.py to aquire sequence information, secondary structures and dihedrals of N' - N4 in each ASX motifs or ST motifs. 
-7) The output from sequence_secondary_dihedral.py serves as the datasets of unique ASX or ST motifs in PDB, which can be found in 'nonredundant-ASX/ST,zip'.
+6) The output csv files from search_ASX.py or search_ST.py can be used as inputs in get_seq_sec_dihed_ASX.py or get_seq_sec_dihed_ST.py to aquire sequence information, secondary structures and dihedrals of N" - N5 in each ASX motifs or ST motifs. 
+7) The output from get_seq_sec_dihed_ASX.py or get_seq_sec_dihed_ST.py serves as the datasets of unique ASX or ST motifs in PDB, which can be found in 'nonredundant-ASX/ST,zip'.
 8) Following filter scripts can be applied on nonredundant ASX/ST datasets to build childern datasets.  An example of childern dataset, helical N-cap ASX motifs and ST-motifs, were searched by requring motifs in class 5 and at helical N-termini.
 9) users can generate different children datasets based on their demands.
 
